@@ -143,3 +143,6 @@ Do you want to process another file? (yes/no): ↵
 - Retry Prompt — Asks the user to re-enter until a valid path is provided.
 
 - Error Messages — Clear, descriptive feedback for invalid inputs.
+
+**Output CLI Application**
+![alt text](image.png)
