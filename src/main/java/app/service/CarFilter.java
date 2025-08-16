@@ -9,11 +9,24 @@ import java.time.format.DateTimeParseException;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * This class used for handle the filtering features
+ * 
+ * @author Angga Bayu S (anggabs86@gmail.com)
+ */
 public class CarFilter {
 
     private static final DateTimeFormatter DATE_FORMAT_DASHES = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     private static final DateTimeFormatter DATE_FORMAT_COMMAS = DateTimeFormatter.ofPattern("yyyy,dd,MM");
 
+    /**
+     * Filter the list based on type and value
+     * 
+     * @param cars
+     * @param type
+     * @param value
+     * @return List Car Object
+     */
     public static List<Car> filter(List<Car> cars, String type, String value) {
         String[] parts = value.split(",");
 

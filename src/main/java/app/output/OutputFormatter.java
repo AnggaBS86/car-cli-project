@@ -11,8 +11,19 @@ import java.io.IOException;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
+/**
+ * Used for format the output
+ * 
+ * @author Angga Bayu S (anggabs86@gmail.com)
+ */
 public class OutputFormatter {
 
+    /**
+     * Format and print the output
+     * 
+     * @param cars
+     * @param format
+     */
     public static void formatAndPrint(List<Car> cars, String format) {
         switch (format.toLowerCase()) {
             case AppConstant.OUTPUT_TABLE_PARAM:

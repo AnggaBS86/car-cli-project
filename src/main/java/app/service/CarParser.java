@@ -12,9 +12,22 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
+/**
+ * This class used for parsing the CSV and XML file
+ * 
+ * @author Angga Bayu S (anggabs86@gmail.com)
+ */
 public class CarParser {
     private static final DateTimeFormatter CSV_DATE_FORMAT = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 
+    /**
+     * Parsing the xml and csv file
+     * 
+     * @param xmlFilePath
+     * @param csvFilePath
+     * @return List Car Objects
+     * @throws Exception
+     */
     public static List<Car> parse(String xmlFilePath, String csvFilePath) throws Exception {
         List<Car> cars = parseXml(xmlFilePath);
         Map<String, String> brandDates = parseCsv(csvFilePath);

@@ -1,5 +1,10 @@
 package app.constant;
 
+/**
+ * This class used for defining the constants that used by CLI
+ * 
+ * @author Angga Bayu S (anggabs86@gmail.com)
+ */
 public class AppConstant {
 
     public static final String OPTION_XML_PARAM = "--xml";

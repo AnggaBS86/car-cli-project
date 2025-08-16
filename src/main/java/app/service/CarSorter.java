@@ -8,8 +8,19 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * This class used for sorting 
+ * 
+ * @author Angga Bayu S (anggabs86@gmail.com)
+ */
 public class CarSorter {
 
+    /**
+     * Sorting the cars based on sortOption
+     * 
+     * @param cars
+     * @param sortOption
+     */
     public static void sort(List<Car> cars, String sortOption) {
         if (sortOption == null || sortOption.trim().equalsIgnoreCase("")) return;
 

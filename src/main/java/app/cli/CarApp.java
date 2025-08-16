@@ -14,6 +14,11 @@ import app.service.CarFilter;
 import app.service.CarParser;
 import app.service.CarSorter;
 
+/**
+ * The main class
+ * 
+ * @author Angga Bayu Sejati (anggabs86@gmail.com)
+ */
 public class CarApp {
 
     public static void main(String[] args) {

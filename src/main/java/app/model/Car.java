@@ -4,7 +4,13 @@ import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * This class used for Car modeling
+ * 
+ * @author Angga Bayu S (anggabs86@gmail.com)
+ */
 public class Car {
+
     private String brand;
     private String type;
     private String model;
